@@ -437,13 +437,126 @@
 
 //  29
 
-let a = 334
-let result = 1
-while(result < a){
-  result*=4
-}
-if(result === a){
-  console.log(true);
-}else{
-  console.log(false);
-}
+// let a = 334
+// let result = 1
+// while(result < a){
+//   result*=4
+// }
+// if(result === a){
+//   console.log(true);
+// }else{
+//   console.log(false);
+// }
+
+// 30
+
+// for (let i = 0 +1; i <= 20; i++) {
+// console.log(i);
+// }
+
+// 31
+
+// for (let i = 20; i > 0; i--) {
+//  console.log(i);
+// }
+
+// 32
+// let num = []
+// for (let i = 0 + 1; i <= 50; i++) {
+// if(i % 2 === 1){
+//   num.push(i)
+// }
+// }
+// console.log(num);
+// ---------------------------------------
+// for (let i = 0 +1; i <= 50; i+=2) {
+//  console.log(i);
+// }
+
+// 33
+// let number = []
+// for (let i = 0 + 1; i <= 50; i++) {
+// if(i % 2 === 0){
+//   number.push(i)
+// }
+// }
+// console.log(number);
+// ------------------------------
+// for (let i = 0 +1; i <= 50; i++) {
+// if(i % 2 === 0){
+//   console.log(i);
+
+// }
+// }
+
+// 34
+// let numbers = 0
+// for (let i = 0 +1; i < 100; i++) {
+//   numbers += i
+// }
+// console.log(numbers);
+
+// 35
+
+// let XD = 1
+// for (let i = 1; i <= 5; i++) {
+//  XD *= i 
+// }
+// console.log(XD);
+
+// 36
+
+// let a = 7
+// for (let i = 1; i <= 10; i++) {
+// console.log(`${a} * ${i} = ${a * i}`);
+// }
+
+// 37
+
+// let num = 0
+
+// for (let i = 1; i < 100; i++) {
+//     if( i % 3  === 0){
+//       num +=1
+//     }
+// }
+// console.log(num);
+
+
+// 38
+
+// for (let i = 1; i < 100; i++) {
+// if(i % 3 === 0 && i % 5 === 0){
+//   console.log(i);
+// }
+// }
+
+// 39
+
+// let allNum = 0
+// for (let i = 1; i < 100; i++) {
+//   if(i % 2 === 0){
+//     allNum +=1
+//   }
+// }
+// console.log(allNum);
+
+// 40
+
+// let text ="JavaSctipt"
+// for (let i = 0; i < text.length; i++) {
+//   console.log(text[i]);  
+// }
+
+// 41
+// let word = "JavaScript"
+// for (let i = word.length -1; i > 0; i--) {
+//   console.log(word[i]);
+// }
+
+// 42
+// let text = "javascript is amazing";
+// let word = text.split("")
+// let result = word.filter((wor) => wor === "a")
+// console.log(result.length);
+
