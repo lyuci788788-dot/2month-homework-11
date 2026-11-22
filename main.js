@@ -243,3 +243,207 @@
 // }else{
 //   console.log("katta harf yo'k");
 // }
+
+
+// 11 
+
+// let a = 7
+// let b = 8
+// console.log(a+b, a-b, a*b, a/b);
+
+// 12
+
+// let num1 = 20
+// let num2 = 20
+// if(num1 > num2){
+//   console.log("num1 katta");
+// }else if (num1 < num2){
+//   console.log("num2 katta");
+// }else{
+//   console.log("ikkalasi teng");
+// }
+
+// 13
+
+// let a = 54345
+// if(a % 2 === 0){
+//   console.log("juft");
+// }else{
+//   console.log("toq");
+// }
+
+// 14
+
+// let b = 34
+// if(b > 0){
+//   console.log("Positive");
+// }else if (b < 0){
+//   console.log("Negative");
+// }else if(b = 0){
+//   console.log("Zero");
+// }
+
+// 15
+
+// let age = 18
+// if (agr >= 18){
+//   console.log(Adult);
+// }else{
+//   console.log(Minor);
+// }
+
+// 16
+
+// let number1 = 46
+// let number2 = 54
+// let number3 = 94
+// let max = number1
+// if(number2 > max){
+//   max = number2
+// }if (number3 > number1){
+//   max = number3
+// }
+// console.log(max);
+
+// 17
+
+// let a = 31
+// if(a % 3 === 0 && a % 5 === 0){
+//   console.log(`3 ga va 5 ga bo'linadi`);
+// }else if(a % 3 === 0 && a % 5 !== 0){
+//   console.log(`faqat 3 ga bolinadi`);
+// }else if ( a % 3 !== 0 && a % 5 === 0){
+//   console.log(`faqat 5 ga bolinadi`);
+// }else{
+//   console.log(`ikalasiga ham bolinmaydi`);
+// }
+
+// 18   не поняла
+
+
+// 19
+
+// let login = "lyuci788"
+// let parol = 788
+
+// if(login && parol){
+//   console.log(`parol va login to'g'ri`);
+// }else{
+//   console.log(`parol yoki login xato`);
+// }
+
+// 20
+
+// let day = 3
+// switch (day){
+
+//   case 1:
+//   console.log("Monday");
+//   break;
+
+//   case 2:
+//     console.log("thoTuesday");
+//     break;
+
+//     case 3:
+//       console.log("Wednesday");
+//       break;
+
+//           case 4:
+//       console.log("Thursday ");
+//       break;
+
+//           case 5:
+//       console.log("Friday ");
+//       break;
+
+//           case 6:
+//       console.log("Saturday ");
+//       break;
+
+//                 case 7:
+//       console.log("Sunday");
+//       break;
+
+//       default:
+//         console.log(`bundy hafta kun yo'k`);
+// }
+
+// 21
+
+// const score = 85;
+
+// switch (true) {
+//   case score >= 90:
+//     console.log("Отлично");
+//     break;
+//   case score >= 75:
+//     console.log("Хорошо"); // Сработает это условие
+//     break;
+//   default:
+//     console.log("Нужно подтянуть");
+// }
+
+
+// 22
+
+// let num = 70
+// if(num % 10 === 5){
+//   console.log(`5ga bo'linadi`);
+// }else{
+//   console.log(`5ga bo'linmaydi`);
+// }
+
+// 23
+
+// let number = 54
+// let numEnd = number % 10
+// console.log(numEnd);
+
+// 24
+
+// let num = 53638
+// let betweenNum = Math.floor(num/10)%10
+// console.log(betweenNum);
+
+
+// 25
+
+// let number = 34
+// let number2 = Math.sqrt(number)
+// console.log(number2);
+
+// 26
+
+// let number = 34
+// let number2 = Math.pow(number, 2)
+// console.log(number2);
+
+// 27
+
+// let a = 43
+// let b = 444.43
+// let c = 734.43
+// let result1 = Math.round(c)
+// let result2 = Math.floor(a)
+// let result3 = Math.ceil(b)
+// console.log(result1, result2, result3);
+
+// 28 
+
+// let maxNum = 10
+// let a = Math.floor(Math.random() * maxNum)
+// console.log(a);
+
+//  29
+
+let a = 334
+let result = 1
+while(result < a){
+  result*=4
+}
+if(result === a){
+  console.log(true);
+}else{
+  console.log(false);
+}
