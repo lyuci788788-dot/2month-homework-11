@@ -318,7 +318,7 @@
 //   console.log(`ikalasiga ham bolinmaydi`);
 // }
 
-// 18   не поняла
+// 18 
 
 
 // 19
