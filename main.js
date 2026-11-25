@@ -560,3 +560,80 @@
 // let result = word.filter((wor) => wor === "a")
 // console.log(result.length);
 
+// 43
+// let text = "Akaky"
+// console.log(text.startsWith("A"));
+
+// 44
+
+// let text = "Im 3D artist"
+// console.log(text.toLowerCase().startsWith("q"));
+
+// 45
+// let text = "Im 3D artist"
+// console.log(text.toLowerCase());
+
+// 46
+
+// let text = " One pice is Real!"
+// console.log(text.toUpperCase());
+
+// 47
+
+// let word = "hello"
+// console.log(word.includes("hello"));
+
+// 48
+
+// let text = "I study blender, davinch and js"
+// console.log(text.endsWith("js"));
+
+// 49
+// let text = "i want to creat the game"
+// let word = text.split(" ")
+// console.log(word);
+
+// 50
+
+// let text = "i want to creat the game"
+// let word = text.split("")
+// console.log(word);
+
+// 51
+
+// let text = "i want to creat the game"
+// let word = text.split(" ")
+// let result = word.map((wd) => wd.length)
+// console.log(result);
+
+// 52
+
+// let text = "A рыба я рыба я рыба не плачу не смею не говорю спасибо"
+// let word = text.split(" ")
+// let filter = word.filter((wr) => wr.length > 5)
+// console.log(filter);
+
+// 53
+
+// let text = "я не дере цун цундере XD"
+// let word = text.split(" ")
+// let filter = word.filter((wr) => wr.includes("е"))
+// console.log(filter)
+
+// 54
+
+// let text = "я не пойму что  45 греет наверно 43 ж1ар батарей"
+// let  word = text.split(" ")
+// if (word.some((num) => !isNaN(Number(num )))){
+//   console.log("цыфра есть");
+// }else{
+//   console.log("цыфры нет");
+// }
+
+// 55
+
+// let text = "GTA 6"
+// let word = text.split(" ")
+// let result = text !== text.toLowerCase()
+// console.log(result);
+
